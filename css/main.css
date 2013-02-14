@@ -110,7 +110,7 @@ header{
 #logo{
 	position: fixed;
 	bottom: 0;
-	margin: 0 auto 80px auto;
+	margin: 0 auto 110px auto;
 }
 
 footer{
@@ -121,10 +121,17 @@ footer{
 	position: fixed;
 	bottom: 0;
 	border-top: solid 1px #777;
+	box-shadow: 0 -2px 4px #000;
+}
+
+#footer-inner{
+	width: 960px;
+	margin: 0 auto;
 }
 
 #labels{
 	margin: 8px 0 0 20px;
+	float: left;
 	
 }
 
@@ -135,32 +142,43 @@ footer{
 
 #labels li{
 	float: left;
-	padding-right: 10px;
+	padding-right: 5px;
 	
 }
 
 #social{
 	height: 86px;
+	width: 200px;
+	margin: 9px 50px 0 50px;
+	float: left;
 }
 
 #social ul{
-	overflow: visible;
+	overflow: hidden;
 }
 
 #social li{
 	float: left;
-	padding-right: 10px;
+	padding-right: 5px;
 }
 
 
+#release{
+	height: 100px;
+	width: 300px;
+	margin: -50px 0 0 0;
+	float: left;
+}
 
+#release ul{
+	overflow: hidden;
+}
 
-
-
-
-
-
-
+#release li{
+	float: left;
+	padding-left: 5px;
+	box-shadow: 2 2px 4px #000;
+}
 
 
 
