@@ -57,14 +57,14 @@ body{
 
 h2, h3, h4, h5, h6{
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-	color: rgba(255,114,0,.9);
-	font-size: 3em;
-	font-weight: 300;
+	color: #00deff;
+	font-size: 2em;
+	font-weight: 400;
 	font-variant: small-caps;
 	text-transform: uppercase;
 	vertical-align: bottom;
-	margin: 70px 0 10px 0;
-	border-bottom: dashed 2px #d7d7d7;
+	margin: 70px 0 5px 0;
+	border-bottom: solid 1px #d7d7d7;
 }
 
 p{
@@ -95,10 +95,11 @@ ol li{
 
 
 
-/*--------------------------------------End General / Start Fo0ter--------------------------------------*/
+/*--------------------------------------End General / Start content---------------------------------*/
 
 
 #wrapper{
+	
 }
 
 header{
@@ -110,8 +111,73 @@ header{
 #logo{
 	position: fixed;
 	bottom: 0;
-	margin: 0 auto 130px auto;
+	margin: 0 auto 100px auto;
 }
+
+h2.release{
+	width: 200px;
+	margin: 30px 0 0 30px;
+}
+
+#content{
+	width: 200px;
+	height: 450px;
+	margin: 50px 0 0 20px;
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: -30px;
+	bottom: 0;	
+	padding-right: 15px;
+	overflow-y: scroll;
+	clip: rect(20px, 200px, 450px, 0);
+}
+
+#release{
+	height: 100px;
+	width: 200px;
+	margin: 20px 0 0 0;
+	float: left;
+}
+
+#release ul{
+	overflow: hidden;
+}
+
+#release li{
+	float: left;
+	padding-top: 10px;
+	padding-left: 10px;
+	box-shadow: 2 2px 4px #000;
+}
+
+#mix{
+	height: 100px;
+	width: 200px;
+	margin: 20px 0 0 0;
+	float: left;
+}
+
+li.mixhead{
+	margin: 30px 0 0 0;
+}
+
+#mix ul{
+	overflow: hidden;
+}
+
+#mix li{
+	float: left;
+	padding-top: 10px;
+	padding-left: 10px;
+	box-shadow: 2 2px 4px #000;
+}
+
+
+
+
+/*--------------------------------------End Content / Start Footer----------------------------------*/
+
 
 footer{
 	background: #000;
@@ -125,7 +191,7 @@ footer{
 }
 
 #footer-inner{
-	width: 960px;
+	width: 660px;
 	margin: 0 auto;
 }
 
@@ -163,22 +229,7 @@ footer{
 }
 
 
-#release{
-	height: 100px;
-	width: 300px;
-	margin: -50px 0 0 0;
-	float: left;
-}
 
-#release ul{
-	overflow: hidden;
-}
-
-#release li{
-	float: left;
-	padding-left: 5px;
-	box-shadow: 2 2px 4px #000;
-}
 
 
 
