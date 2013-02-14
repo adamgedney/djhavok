@@ -46,12 +46,12 @@ html{
 
 
 body{
+	height: 100%;
 	color: #6e6e6e;
 	font-size: 62.5%;
 	font-family: "helvetica neue", arial, sans-serif;
 	font-weight: 100;
 	text-align: left;
-	margin: 0 auto 0 auto;
 }
 
 
@@ -59,10 +59,9 @@ h2, h3, h4, h5, h6{
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	color: #00deff;
 	font-size: 2em;
-	font-weight: 400;
-	font-variant: small-caps;
+	font-weight: 100;
+	letter-spacing: 5px;
 	text-transform: uppercase;
-	vertical-align: bottom;
 	margin: 70px 0 5px 0;
 	border-bottom: solid 1px #d7d7d7;
 }
@@ -85,10 +84,7 @@ ol li{
 	line-height: 2;
 }
 
-.corrected{
-	text-decoration: line-through;
-	font-style: italic;
-}
+
 
 
 
@@ -99,19 +95,13 @@ ol li{
 
 
 #wrapper{
+	background-color: rgba(0, 0, 0, .9);
+	width: 250px;
+	height: 4000px;;
+	margin: 0;
+	padding-top: 30px;
+	box-shadow: 8px 0 16px #000;
 	
-}
-
-header{
-	width: 410px;
-	margin: 0 auto;
-
-}
-
-#logo{
-	position: fixed;
-	bottom: 0;
-	margin: 0 auto 100px auto;
 }
 
 h2.release{
@@ -122,19 +112,12 @@ h2.release{
 #content{
 	width: 200px;
 	height: 450px;
-	margin: 50px 0 0 20px;
-	position: fixed;
-	left: 0;
-	top: 0;
-	right: -30px;
-	bottom: 0;	
-	padding-right: 15px;
-	overflow-y: scroll;
-	clip: rect(20px, 200px, 450px, 0);
+	margin: 0 0 0 20px;
+
 }
 
 #release{
-	height: 100px;
+	height: 200px;
 	width: 200px;
 	margin: 20px 0 0 0;
 	float: left;
@@ -152,14 +135,18 @@ h2.release{
 }
 
 #mix{
-	height: 100px;
 	width: 200px;
-	margin: 20px 0 0 0;
+	margin: 0;
 	float: left;
 }
 
+#mix h2{
+	width: 200px;
+	margin: 30px 0 15px 0;
+}
+
 li.mixhead{
-	margin: 30px 0 0 0;
+	margin: 0;
 }
 
 #mix ul{
@@ -178,6 +165,17 @@ li.mixhead{
 
 /*--------------------------------------End Content / Start Footer----------------------------------*/
 
+#logo{
+	width: 410px;
+	height: 64px;
+	margin: 0 auto;
+}
+
+#logo-inner{
+	position: fixed;
+	bottom: 0;
+	margin: 0 auto 100px auto;
+}
 
 footer{
 	background: #000;
