@@ -82,9 +82,13 @@ ol li{
 
 
 
+#release li:hover, #mix li:hover, a:hover{
+	opacity: .5;
+}
 
-
-
+img{
+	max-width: 100%;
+}
 
 
 /*--------------------------------------End General / Start content---------------------------------*/
@@ -93,7 +97,7 @@ ol li{
 #wrapper{
 	background-color: rgba(0, 0, 0, .9);
 	width: 260px;
-	height: 4000px;;
+	height: 4000px;
 	margin: 0;
 	padding-top: 30px;
 	box-shadow: 8px 0 16px #000;
@@ -113,10 +117,15 @@ h2.release{
 }
 
 #release{
-	height: 200px;
+	height: 450px;
 	width: 200px;
 	margin: 10px 0 0 0;
 	float: left;
+}
+
+#release img, #mix img{
+	width: 90px;
+	height: 90px;
 }
 
 #release ul{
@@ -141,7 +150,7 @@ h2.release{
 	margin: 30px 0 15px 0;
 }
 
-li.mixhead{
+h2.mixhead{
 	margin: 0;
 }
 
@@ -168,15 +177,15 @@ h2.about-title{
 /*--------------------------------------End Content / Start Footer----------------------------------*/
 
 #logo{
-	width: 410px;
-	height: 64px;
+	width: 510px;
+	height: 259px;
 	margin: 0 auto;
 }
 
 #logo-inner{
 	position: fixed;
 	bottom: 0;
-	margin: 0 auto 100px auto;
+	margin: 0 auto;
 }
 
 footer{
@@ -229,13 +238,163 @@ footer{
 }
 
 
+/*---------------------------------------------@media max-width 960px--------------------------*/
+
+@media only screen and (max-width: 960px){
+
+
+html{ 
+	background: #000;
+	background-image: none;
+}
+
+#logo{
+	width: 410px;
+	height: 208px;
+
+}
+
+#logo img{
+	width: 410px;
+	height: 208px;
+	margin-bottom: 18px;
+}
+
+#wrapper{
+	background-color: rgba(0, 0, 0, .1);
+	width: 600px;
+	height: 1000px;
+	margin: 0 auto;
+	box-shadow: none;
+}
+
+#release{
+	height: 400px;
+	width: 525px;
+	margin: 10px auto 0;
+	float: left;
+}
+
+h2.release{
+	display: block;
+	width: 100%;
+	margin: 20px auto 0;
+}
+
+#release li img{
+	width: 165px;
+	height: 165px;
+}
+
+#mix{
+	width: 525px;
+	margin: 0 auto 30px;
+	float: left;
+}
+
+#mix h2{
+	width: 100%;
+	padding-right: 50px;
+}
+
+#mix li img{
+	width: 165px;
+	height: 165px;
+}
+
+}
+
+/*-----------End device query----------*/
+
+@media only screen and (max-width: 321px){
 
 
 
+#logo{
+	width: 310px;
+	height: 108px;
+	position: absolute;
+	top: 0;
 
+}
 
+#logo-inner{
+	position: static;
+	bottom: 0;
+	margin: 0 auto;
+}
 
+#logo img{
+	width: 310px;
+	height: 108px;
+	margin-bottom: 18px;
+}
 
+#wrapper{
+	background-color: rgba(0, 0, 0, .1);
+	width: 300px;
+	height: 1000px;
+	margin: 108px auto 0;
+	box-shadow: none;
+}
+
+#release{
+	height: 450px;
+	width: 300px;
+	margin: 10px auto 0;
+	float: left;
+}
+
+h2.release{
+	display: block;
+	width: 80%;
+	margin: 20px auto 0;
+}
+
+#release li img{
+	width: 95px;
+	height: 95px;
+}
+
+#mix{
+	width: 300px;
+	margin: 0 auto 30px;
+	float: left;
+}
+
+#mix h2{
+	width: 68%;
+	padding-right: 50px;
+}
+
+#mix li img{
+	width: 95px;
+	height: 95px;
+}
+
+footer{
+	width: 100%;
+	height: 55px;
+}
+
+#footer-inner{
+	width: 320px;
+	margin: 0 auto;
+}
+
+#labels{
+	display: none;
+}
+
+#social li{
+	margin-right: 3px;
+}
+
+#social li:last-child{
+	margin-right: 0;
+}
+
+}
 
 
 

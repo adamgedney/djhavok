@@ -19,9 +19,9 @@
                         
 
     /* SITE */
-    Last update: 02/14/2013
+    Last update: 03/4/2013
     Standards: HTML5, CSS3,..
-    Software: GitHub, Text Wrangler, Fetch
+    Software: GitHub, Sublime Text 2, Fetch
 
 
                     
