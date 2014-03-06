@@ -269,7 +269,7 @@ html{
 }
 
 #release{
-	height: 400px;
+	height: 550px;
 	width: 525px;
 	margin: 10px auto 0;
 	float: left;
@@ -306,7 +306,7 @@ h2.release{
 
 /*-----------End device query----------*/
 
-@media only screen and (max-width: 321px){
+@media only screen and (max-width: 400px){
 
 
 
@@ -315,6 +315,7 @@ h2.release{
 	height: 108px;
 	position: absolute;
 	top: 0;
+	left: 11%;
 
 }
 
@@ -339,7 +340,7 @@ h2.release{
 }
 
 #release{
-	height: 450px;
+	height: 525px;
 	width: 300px;
 	margin: 10px auto 0;
 	float: left;
